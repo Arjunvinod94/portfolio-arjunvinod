@@ -34,3 +34,14 @@
     $('.social-links a').tooltip();
 
 })(jQuery);
+
+function submitForm(event) {
+    // Prevent the default form submission
+    event.preventDefault();
+
+    // Your form submission logic here...
+
+    // Reset the form
+    document.getElementById("myForm").submit();
+    document.getElementById("myForm").reset();
+  }

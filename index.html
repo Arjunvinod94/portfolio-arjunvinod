@@ -398,11 +398,12 @@ https://www.tooplate.com/view/2115-marvel
 
         <div class="col-lg-6 col-12">
           <div class="contact-form">
-            <h2 class="mb-4">Interested to work together? Let's talk</h2>
+            <h2 class="mb-4">Let's start a conversation!</h2>
 
-            <form action="" method="get">
+            <form id="myForm" action="https://api.web3forms.com/submit" method="POST" onsubmit="submitForm(event)">
               <div class="row">
                 <div class="col-lg-6 col-12">
+                  <input type="hidden" name="access_key" value="4a31c4d1-f5f5-4ac5-bfe4-afe85500f7ce">
                   <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
                 </div>
 
